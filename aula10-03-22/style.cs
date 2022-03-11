@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
+
         *{
             padding: 0;
             margin: 0;
@@ -51,31 +44,10 @@
             background-color: #EEE;
             border-radius: 20px;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <div id="header">
-            <nav>
-                <ul>
-                    <li><a href="">Pagina Um</a></li>
-                    <li><a href="">Pagina Dois</a></li>
-                    <li><a href="">Pagina Tres</a></li>
-                    <li><a href="">Pagina Quatro</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section>
-        <h1>Titulo mega importante aula 2</h1>
-        <div id="areaPostagem">
-            <p>Texto, paragrafo</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam officiis dolorum nesciunt ipsam distinctio? Sit rem ipsa perferendis, qui, reprehenderit blanditiis sint saepe nostrum eaque, reiciendis maxime magnam eveniet labore?</p>
-        </div>
-    </section>
-    <footer>
-
-    </footer>
-</body>
-</html>
+        #areaPostagem img {
+            margin: 40px;
+        }
