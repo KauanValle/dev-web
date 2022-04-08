@@ -1,4 +1,77 @@
 .banner{
     background-image: url('../imgs/banner.jpg');
     background-position: center;
+    height: 500px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    margin-bottom: 50px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+.container{
+    width: 100%;
+}
+
+.caixaBanner{
+    margin-top: 80px;
+    background: rgba(0, 0, 0, 0.459);
+    color: white;
+    width: 450px;
+    padding: 30px;
+}
+
+.caixaBanner a {
+    color: rgb(0, 140, 255);
+}
+
+.caixaBanner p {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+}
+
+header a{
+    text-decoration: none;
+    margin: 8px;
+    color: #444;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.imagem{
+    height: 230px;
+}
+
+.articlePosts{
+    width: 280px;
+}
+
+.articlePosts h2{
+    margin: 15px 0 15px 0;
+}
+
+.articlePosts p{
+    line-height: 20px;
+}
+
+#sectionPosts{
+    display: flex;
+    justify-content: space-between;
 }
