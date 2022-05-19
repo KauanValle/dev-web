@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300&display=swap');
+
+.boxUm {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, white, rgb(123, 213, 255), white);
+}
+
+.minhaNavbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloPrincipal{
+    font-size: 40px;
+}
+.card{
+    width: 100%;
+    margin: 5px;
+}
+
+.containerLinguagens{
+    display: flex;
+}
+
+.containerArticle, .infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.infos{
+    padding: 100px 0;
+}
